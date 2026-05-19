@@ -19,7 +19,6 @@ Public repositories include work that benefits from being easy to inspect, use, 
 
 - `misty-plugins`: public plugin interfaces, examples, and community-facing extension points.
 - `misty-setup`: the public installer and setup flow for getting Misty running on a device.
-- `misty-website`: the public website for Misty.
 - `misty-docs`: documentation, guides, and reference material for using and extending Misty.
 
 ## What's Private
