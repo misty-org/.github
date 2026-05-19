@@ -1,15 +1,27 @@
 <p align="center">
-  <img src="./assets/misty-full.png" alt="Misty" width="720">
+  <img src="./assets/misty-full.png" alt="Misty" width="500">
 </p>
 
-Misty is a cloud-native workspace for organizing files, projects, and the ideas that connect them.
+Misty is a modern file manager that brings local files, cloud storage, and backups into one connected experience. It gives you a single place to browse, search, move, protect, and extend the files you use every day.
+
+File management should feel fast, secure, and flexible no matter where your data lives. Whether your files are on your machine, Google Drive, OneDrive, Dropbox, S3, or another provider, Misty keeps them close, searchable, and easy to work with.
+
+The goal is a file manager built for modern cloud workflows and deep customization: direct provider connections, privacy-conscious defaults, reliable transfers, and a plugin system that lets Misty grow around the way you work.
 
 ## What's Public
 
-The repositories that are public here are meant to be useful outside the core product: examples, shared tooling, experiments, documentation, and small pieces of infrastructure that do not expose private product logic or user data.
+Public repositories include work that benefits from being easy to inspect, use, or contribute to:
+
+- `misty-plugins`: public plugin interfaces, examples, and community-facing extension points.
+- `misty-website`: the public website for Misty.
+- `misty-docs`: documentation, guides, and reference material for using and extending Misty.
 
 ## What's Private
 
-Most Misty repositories are private. That includes the application source, deployment configuration, internal services, design assets, credentials-adjacent setup, and work that could reveal security-sensitive implementation details.
+Private repositories include the core product, backend services, and infrastructure-sensitive code:
 
-Keeping this work private helps protect users, preserve product direction while it is still changing, and keep operational details out of places where they do not need to be.
+- The main file manager application and product implementation.
+- Backend services, internal APIs, accounts, licensing, and release infrastructure.
+- Networking, routing, and deployment-adjacent infrastructure.
+
+These stay private to protect user data, keep security-sensitive implementation details out of public view, and preserve product direction while Misty is still changing quickly.
