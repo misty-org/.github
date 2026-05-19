@@ -1,18 +1,24 @@
 <p align="center">
-  <img src="./assets/misty-full.png" alt="Misty" width="500">
+  <img src="./assets/misty-full.png" alt="Misty" width="300">
 </p>
 
-Misty is a modern file manager that brings local files, cloud storage, and backups into one connected experience. It gives you a single place to browse, search, move, protect, and extend the files you use every day.
+Misty is a modern file manager for working across local files, cloud drives, object storage, and backups. It makes remote files feel local with fast browsing, unified search, and reliable background transfers. Unlike traditional file managers, Misty supports custom plugin workflows for automating repetitive tasks, adding specialized tools, and shaping the app around the way you work. The goal is to give everyone one place to manage their files, no matter where those files live.
 
-File management should feel fast, secure, and flexible no matter where your data lives. Whether your files are on your machine, Google Drive, OneDrive, Dropbox, S3, or another provider, Misty keeps them close, searchable, and easy to work with.
+## Built With
 
-The goal is a file manager built for modern cloud workflows and deep customization: direct provider connections, privacy-conscious defaults, reliable transfers, and a plugin system that lets Misty grow around the way you work.
+Misty builds on excellent open-source tools, including:
+- [rclone](https://rclone.org/) for secure, cloud storage connectivity.
+- [restic](https://restic.net/) for encrypted, reliable backups.
+- [imgui](https://github.com/ocornut/imgui) for fast, flexible native interface tooling.
+
+Huge thanks to the maintainers and contributors behind these projects. Misty would not be possible without their work.
 
 ## What's Public
 
 Public repositories include work that benefits from being easy to inspect, use, or contribute to:
 
 - `misty-plugins`: public plugin interfaces, examples, and community-facing extension points.
+- `misty-setup`: the public installer and setup flow for getting Misty running on a device.
 - `misty-website`: the public website for Misty.
 - `misty-docs`: documentation, guides, and reference material for using and extending Misty.
 
@@ -23,5 +29,6 @@ Private repositories include the core product, backend services, and infrastruct
 - The main file manager application and product implementation.
 - Backend services, internal APIs, accounts, licensing, and release infrastructure.
 - Networking, routing, and deployment-adjacent infrastructure.
+
 
 These stay private to protect user data, keep security-sensitive implementation details out of public view, and preserve product direction while Misty is still changing quickly.
